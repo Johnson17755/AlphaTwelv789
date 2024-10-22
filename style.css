@@ -24,12 +24,11 @@ body.dark-mode-active {
     background-color: var(--primary-color) !important;
     color: #fff; /* Change text color for dark mode */
 }
-
 body.dark-mode-active .nav-item,
 body.dark-mode-active h3,
 body.dark-mode-active .display-info,
+body.dark-mode-active .jw-modal-body,
 body.dark-mode-active .pagination-container,
-body.dark-mode-active .jw-modal,
 body.dark-mode-active .chart-main{
     color: var(--text-color);
 }
@@ -38,7 +37,7 @@ body.dark-mode-active .chart-main{
 .table-header,
 .search-input,
 .filter-select,
-.jw-modal,
+.jw-modal-body,
 .export-button,
 #eventTable {
     background-color: var(--primary-color);
@@ -56,7 +55,7 @@ body.dark-mode-active .pagination-container,
 body.dark-mode-active .table-header,
 body.dark-mode-active .search-input,
 body.dark-mode-active .filter-select,
-body.dark-mode-active #modal-1,
+body.dark-mode-active .jw-modal-body,
 body.dark-mode-active .export-button,
 body.dark-mode-active #eventTable {
     background-color: var(--secondary-color);
